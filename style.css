@@ -92,14 +92,16 @@ a{
     padding-bottom: 52px;
 }
 .service-container{
+    margin: 0 auto;
     align-items: center;
+    justify-content: center;
 }
 .service-title{
     font-weight: 600;
     font-size: 48px;
     color: #3a2e2e;
     text-align: center;
-    border-bottom: 3px solid #6278b4;
+    border-bottom: 5px solid #6278b4;
     width: 351px;
     margin: 0px auto 50px;
     padding-bottom: 18px;
@@ -110,7 +112,7 @@ a{
 .service-list{
     display: flex;
     flex-wrap: wrap;
-    gap: 55px;
+    gap: 60px;
 }
 .service-item{
     display: flex;
@@ -124,9 +126,90 @@ a{
 }
 .service-item-title{
     font-weight: 400;
+    font-size: 24px;
     color: #3a2e2e;
+    margin-bottom: 25px;
+    width: 259px;
+}
+.service-item-text{
+    width: 250px;
+    font-size: 14px;
+    color: #3a2e2e;
+
 }
 .item-span{
     color: #6278b4;
     font-weight: 500;
+}
+
+/* work */
+
+.work{
+    background-color: #ddf9ff;
+    padding: 32px 0px;
+}
+.work-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+}
+.work-title{
+    color: #6278b4;
+    font-weight: 900;
+    font-size: 48px;
+    width: 358px;
+    margin-bottom: 28px;
+}
+.work-text{
+    color: #3a2e2e; 
+    font-weight: 500;
+    font-size: 20px;
+    width: 294px;
+}
+
+/* doctor */
+
+.doctor{
+    background-color: #FBFCFF;
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+.doctor-container{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.doctor-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+.doctor-item{
+    margin: 0 auto;
+    justify-content: center ;
+}
+.doctor-title{
+    color: #3a2e2e;
+    font-weight: 600;
+    font-size: 48px;
+    border-bottom: 4px solid #6278b4;
+    width: 351px;
+}
+.doctor-span-title{
+    color: #6278b4;
+}
+.doctor-item-img{
+    margin-bottom: 32px;
+}
+.doctor-item-title{
+    color: #3a2e2e;
+    font-weight: 600;
+    font-size: 32px;
+    border-top: 4px solid #3a2e2e;
+    margin-top: 32px;
+    margin-left: 65px;   
+    width: 224px;
 }
