@@ -74,6 +74,7 @@ a{
     margin-bottom: 32px;
 }
 .banner-btn{
+    cursor: pointer;
     border: none;
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
@@ -86,17 +87,19 @@ a{
 
 /* services */
 
-.service{
+.service {
     background-color: #FBFCFF;
     padding-top: 24px;
     padding-bottom: 52px;
 }
-.service-container{
+
+.service-container {
     margin: 0 auto;
     align-items: center;
     justify-content: center;
 }
-.service-title{
+
+.service-title {
     font-weight: 600;
     font-size: 48px;
     color: #3a2e2e;
@@ -106,38 +109,45 @@ a{
     margin: 0px auto 50px;
     padding-bottom: 18px;
 }
-.service-span-title{
+
+.service-span-title {
     color: #6278b4;
 }
-.service-list{
+
+.service-list {
     display: flex;
     flex-wrap: wrap;
     gap: 60px;
 }
-.service-item{
+
+.service-item {
     display: flex;
     flex-direction: row;
     width: 300px;
 }
-.service-item-img{
+
+.service-item-img {
     width: 49px;
     height: 49px;
     margin-right: 15px;
 }
-.service-item-title{
+
+.service-item-title {
     font-weight: 400;
     font-size: 24px;
     color: #3a2e2e;
     margin-bottom: 25px;
     width: 259px;
 }
-.service-item-text{
+
+.service-item-text {
     width: 250px;
     font-size: 14px;
     color: #3a2e2e;
 
 }
-.item-span{
+
+.item-span {
     color: #6278b4;
     font-weight: 500;
 }
@@ -227,6 +237,9 @@ a{
 .footer-logo-container{
     display: flex;
     margin-bottom: 28px;
+}
+.footer-logo{
+    margin-right: 900px;
 }
 .contact-wrap{
     width: 1120px;
