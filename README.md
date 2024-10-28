@@ -1,6 +1,6 @@
 # MedVet
 ## History project
-This project is educational and was created only for the purpose of gaining experience and consolidating it on the topic covered.
+__I asked my mentor for this project to gain experience and fill my portfolio with projects, so it does not have a commercial purpose.__
 ## [Unrealized]
 ### I added everything I wanted, maybe there will be something more in the future.
 ___
