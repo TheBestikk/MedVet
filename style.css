@@ -44,6 +44,10 @@ a{
 .nav-link{
     color: #3a2e2e;
 }
+.nav-link:hover{
+    border-bottom: 3px solid #3a2e2e;
+    transition-duration: .1s;
+}
 
 /* banner */
 
@@ -201,14 +205,17 @@ a{
     margin: 0 auto;
     justify-content: center ;
 }
-.doctor-title{
-    color: #3a2e2e;
+.doctor-title {
     font-weight: 600;
     font-size: 48px;
-    border-bottom: 4px solid #6278b4;
+    color: #3a2e2e;
+    text-align: center;
+    border-bottom: 5px solid #6278b4;
     width: 351px;
+    margin: 0px auto 50px;
+    padding-bottom: 18px;
 }
-.doctor-span-title{
+.doctor-span-title {
     color: #6278b4;
 }
 .doctor-item-title{
@@ -275,4 +282,7 @@ a{
 .contact-item-link, .contact-item-address{
     color: #fff;
     font-size: 20px;
+}
+.contact-item-link:hover{
+    font-weight: 500;
 }
